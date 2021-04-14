@@ -1,8 +1,177 @@
 *{
   margin: 0;
+  user-select: none;
+}
+body{
+  background-color: #fef0e0;
 }
 
 /* ここからindex.html */
+.index-body{
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.index-header{
+  margin: 30px 0;
+}
+
+.index-header-box{
+  display: flex;
+  justify-content: center;
+}
+
+.index-header-picture{
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.index-header-h1{
+  margin: auto 0;
+  color: #6f7579;
+}
+.index-header-h2{
+  background-color: #959ea7;
+  color: white;
+  width: max-content;
+  margin: 0 auto;
+  padding: 4px 6px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.index-nav-ul{
+  display: flex;
+  list-style: none;
+  color: #6f7579;
+  justify-content: center;
+}
+
+.index-nav-ul>li{
+  padding: 12px 48px;
+  font-weight: bold;
+}
+
+.index-nav-ul>li>a{
+  text-decoration: none;
+  color: #6f7579;
+}
+
+.index-main{
+  padding: 100px 0;
+  background-color: #f0f3f5;
+  border-radius: 20px;
+}
+
+.index-main-h1{
+  color: #3b4043;
+  width: fit-content;
+  margin: 24px auto;
+  border-bottom: #3b4043 4px solid;
+}
+
+.index-section1{
+  margin: 120px 0;
+}
+.index-section1-h1{
+  color: #6f7579;
+  margin: 24px;
+}
+
+.index-section1-box1{
+  display: flex;
+  justify-content: center;
+  padding: 10px 50px;
+}
+
+.index-section1-box2{
+  display: flex;
+  width: 30%;
+}
+
+.index-section1-logo{
+  width: 50px;
+  height: 50px;
+}
+
+.index-section1-text{
+  font-size: 12px;
+}
+
+.index-section2-h1{
+  margin: 30px 0;
+  color: #6f7579;
+}
+.index-section2-box{
+  width: 50%;
+  display: flex;
+  margin: 0 auto 50px;
+}
+.index-section2-h2{
+  margin: 24px 0;
+  color:#3b4043;
+}
+
+.index-section2-picture{
+  width: 100px;
+  height: 160px;
+  border-radius: 5px;
+  margin: 0 12px;
+}
+
+.index-footer{
+  margin-top: 120px;
+}
+.index-footer>a{
+  font-size: 48px;
+  display: block;
+  color:#3b4043;
+  text-decoration: none;
+}
+
+.index-footer-box{
+  display: flex;
+  justify-content: center;
+}
+
+.index-footer-picture{
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.index-footer-h1{
+  margin: auto 0;
+  color: #6f7579;
+}
+
+.index-footer-h2{
+  background-color: #959ea7;
+  color: white;
+  width: max-content;
+  margin: 0 auto;
+  padding: 4px 6px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.index-footer-text{
+  background-color: #f0f3f5;
+  color:#3b4043;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
