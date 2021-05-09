@@ -6,6 +6,10 @@ body{
   background-color: #fef0e0;
 }
 
+a:hover{
+  opacity: 0.5;
+}
+
 /* ここからindex.html */
 .index-body{
   width: 1000px;
@@ -69,18 +73,21 @@ body{
   color: #3b4043;
   width: fit-content;
   margin: 24px auto;
+  font-size: 30px;
   border-bottom: #3b4043 4px solid;
 }
 
 .index-main-text1{
   color: #3b4043;
   width: 70%;
+  font-size: 18px;
   margin: 0 auto;
 }
 
 .index-main-text2{
   color: #3b4043;
   width: 70%;
+  font-size: 18px;
   text-align: left;
   margin: 0 auto;
 }
@@ -90,7 +97,10 @@ body{
 }
 .index-section1-h1{
   color: #6f7579;
-  margin: 24px;
+  font-size: 30px;
+  margin: 24px auto;
+  width: fit-content;
+  border-bottom: #6f7579 4px solid;
 }
 
 .index-section1-box1{
@@ -101,11 +111,11 @@ body{
 
 .index-section1-box2{
   display: flex;
-  width: 30%;
+  width: 40%;
 }
 
 .index-section1-logo{
-  width: 50px;
+  width: 70px;
   height: 50px;
 }
 
@@ -113,26 +123,55 @@ body{
   font-size: 12px;
 }
 
+.index-section1-text2{
+  font-size: 12px;
+  text-align: left;
+}
+
 .index-section2-h1{
-  margin: 30px 0;
+  margin: 30px auto;
   color: #6f7579;
+  font-size: 30px;
+  width: fit-content;
+  border-bottom: #6f7579 4px solid;
 }
 .index-section2-box{
-  width: 50%;
+  width: 80%;
   display: flex;
   margin: 0 auto 50px;
+}
+.index-section2-text{
+  font-size: 18px;
+  text-align: left;
 }
 .index-section2-h2{
   margin: 24px 0;
   color:#3b4043;
 }
-
 .index-section2-picture{
-  width: 100px;
-  height: 160px;
+  width: 120px;
+  height: 180px;
   border-radius: 5px;
   margin: 0 12px;
 }
+
+.index-section3{
+  margin: 60px auto;
+}
+.index-section3-h1{
+  margin: 30px auto;
+  color: #6f7579;
+  font-size: 30px;
+  width: fit-content;
+  border-bottom: #6f7579 4px solid;
+}
+.index-section3-ul{
+  list-style: none;
+}
+.index-section3-ul>li{
+  font-size: 18px;
+}
+
 
 .index-footer{
   margin-top: 120px;
@@ -200,6 +239,10 @@ body{
   .index-section1-box2{
     width: 100%;
     margin: 10px auto;
+  }
+
+  .index-section2-picture{
+    display: none;
   }
 }
 
@@ -289,7 +332,6 @@ body{
 .works-main-works{
   width: 300px;
   height: 300px;
-  background: tomato;
 }
 
 .works-footer{
