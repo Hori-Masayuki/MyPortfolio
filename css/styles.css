@@ -178,9 +178,15 @@ a:hover{
 .index-footer{
   margin-top: 120px;
 }
-.index-footer>a{
-  font-size: 48px;
+.index-footer-icon{
+  display: flex;
+  margin: 0 auto;
+  width: fit-content;
+}
+.index-footer-icon>a{
+  font-size: 32px;
   display: block;
+  margin: 0 8px;
   color:#3b4043;
   text-decoration: none;
 }
